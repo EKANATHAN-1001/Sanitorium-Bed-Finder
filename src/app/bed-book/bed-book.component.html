@@ -1,0 +1,30 @@
+<p>bed-book works!</p>
+<p>bed-book works!</p>
+<h1>Select a Bed</h1>
+<div class="bed-selector">
+  <div class="bed-type">
+    <h2>General Ward</h2>
+    <div class="beds">
+      <div class="bed"  *ngFor="let bed of generalWardBeds" [class.reserved]="bed.reserved" [class.selected]="bed.selected" (click)="selectBed(bed)">
+        {{bed.label}}
+      </div>
+    </div>
+  </div>
+  <div class="bed-type">
+    <h2>Private Room</h2>
+    <div class="beds">
+      <div class="bed" *ngFor="let bed of privateRoomBeds" [class.reserved]="bed.reserved" [class.selected]="bed.selected" (click)="selectBed(bed)">
+        {{bed.label}}
+      </div>
+    </div>
+  </div>
+  <div class="bed-type">
+    <h2>ICU</h2>
+    <div class="beds">
+      <div class="bed" *ngFor="let bed of icuBeds" [class.reserved]="bed.reserved" [class.selected]="bed.selected" (click)="selectBed(bed)">
+        {{bed.label}}
+      </div>
+    </div>
+  </div>
+</div>
+<button class="btn" [disabled]="!selectBed" (click)="confirmBed()">Confirm</button>

@@ -1,0 +1,24 @@
+<p>admin-login works!</p>
+
+<form >
+    <div class="name">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required minlength="2" maxlength="30" [(ngModel)]="admin.name" #name="ngModel">
+      <div *ngIf="name.invalid && (name.dirty || name.touched)" class="error">
+          <div *ngIf="name?.errors?.['required']">Name is required.</div>
+          <div *ngIf="name?.errors?.['minlength']">Name must be at least 2 characters long.</div>
+          <div *ngIf="name?.errors?.['maxlength']">Name cannot be more than 30 characters long.</div>
+    </div>
+    </div>
+    <div class="pass">
+      <label for="pass">Hospital ID:</label>
+      <input type="text" id="pass" name="pass"  required [(ngModel)]="admin.pass" #pass="ngModel">
+      <div *ngIf="pass.invalid && (pass.dirty || pass.touched)" class="error">
+        <div *ngIf="pass?.errors?.['required']">pass number is required.</div>
+        <div *ngIf="pass?.errors?.['pattern']">pass number must be 8 characters.</div>
+      </div>
+    </div>
+    <div class="sub">
+      <button type="submit" (click)="ALogin()">Submit</button>
+    </div>
+  </form>

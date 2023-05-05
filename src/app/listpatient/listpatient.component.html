@@ -1,0 +1,24 @@
+<br>
+<div style="text-align: center;margin-left:42%;">
+<table border="1px" >
+    <thead style="color: white;">
+        <tr>
+            <th>#</th>
+            <th>Name</th>
+            <th>Disease</th>
+            <th>Operation</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr style="color:aqua" *ngFor="let p of patient;let i =index">
+            <th>{{i+1}}</th>
+            <td>{{p.name}}</td>
+            <td>{{p.disease}}</td>
+            <td>
+                <span  style="color:red" (click)="removepatient(p)" >Delete</span>
+               &nbsp;&nbsp; <span style="color:rgb(126, 214, 126)" routerLink="/update-patient/{{p.id}}">Edit</span>
+            </td>
+        </tr>
+    </tbody>
+</table>
+</div>

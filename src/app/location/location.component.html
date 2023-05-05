@@ -1,0 +1,38 @@
+<div class="loc">
+Select Location &nbsp;
+<select [(ngModel)]="selectedOption">
+    <option *ngFor="let hos of hospital" [value]="hos">{{hos}}</option>
+</select>
+</div>
+<div class="sel">
+    <ul>
+    <li *ngIf ="selectedOption == 'Madurai'">
+        <ul class="ll">
+            Madurai Machine Hospital<br>
+            clinic<br>
+            Appulo Hospitals
+        </ul>
+    </li>
+    </ul>
+    <ul>
+    <li *ngIf ="selectedOption == 'Chennai'">
+        <ul class="ll">
+            Multi speciality Hospital<br>
+            Anbu Clinic <br>
+            Hannah Group of Hospitals
+        </ul>
+    </li>
+    </ul>
+    <ul>
+    <li *ngIf ="selectedOption == 'Trichy'">
+        <ul class="ll">
+            Mani Malar Clinic<br>
+            Ram Hospital<br>
+            Lotus Group of Hospitals
+        </ul>
+    </li>
+    </ul>
+</div>
+<div class="btn">
+<a style="color:rgb(91, 242, 146)" routerLink="/bed-book" routerLinkActive="active">Book Bed</a>
+</div>
