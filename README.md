@@ -26,22 +26,22 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
 
-<img width="560" alt="Alog" src="https://github.com/EKANATHAN-1001/Sanitorium-Bed-Finder/assets/116795679/7cc89e63-fe46-4c4d-96ae-ec8492cc7b67">
 
-<img width="595" alt="Preg" src="https://github.com/EKANATHAN-1001/Sanitorium-Bed-Finder/assets/116795679/14737319-3ba8-411e-b45e-08529d3d9c0d">
+<img width="560" alt="Alog" src="https://github.com/EKANATHAN-1001/Sanitorium-Bed-Finder/assets/116795679/17f2da34-bd9c-42ac-bfff-885a870fdea7">
 
-<img width="577" alt="Plog" src="https://github.com/EKANATHAN-1001/Sanitorium-Bed-Finder/assets/116795679/54fe02fb-1807-43eb-b7a3-dde5700adc66">
+![Preg](https://github.com/EKANATHAN-1001/Sanitorium-Bed-Finder/assets/116795679/b9e50c1e-d91c-432f-a855-c0ceb9ee702e)
 
-![addp](https://github.com/EKANATHAN-1001/Sanitorium-Bed-Finder/assets/116795679/67815afe-0347-4d19-ace4-94953c9fa56f)
+<img width="577" alt="Plog" src="https://github.com/EKANATHAN-1001/Sanitorium-Bed-Finder/assets/116795679/e930760b-1bf5-41f3-97c1-8930b6583706">
 
-<img width="229" alt="viewP" src="https://github.com/EKANATHAN-1001/Sanitorium-Bed-Finder/assets/116795679/23a322ba-828d-4377-b990-000901a76605">
+![addp](https://github.com/EKANATHAN-1001/Sanitorium-Bed-Finder/assets/116795679/dc151191-9d11-4ce1-b9a6-8826cdb6c202)
 
-![Deletepatient](https://github.com/EKANATHAN-1001/Sanitorium-Bed-Finder/assets/116795679/2379110e-b0d7-40da-a1ec-34219e67a21d)
+<img width="229" alt="viewP" src="https://github.com/EKANATHAN-1001/Sanitorium-Bed-Finder/assets/116795679/1a09a7de-bb62-4733-9fc4-88c401d65778">
 
-![location](https://github.com/EKANATHAN-1001/Sanitorium-Bed-Finder/assets/116795679/68535105-2608-450a-8227-289f85c98423)
+![Deletepatient](https://github.com/EKANATHAN-1001/Sanitorium-Bed-Finder/assets/116795679/143b31e6-0906-44fe-b412-4862ecdec055)
 
-<img width="939" alt="bed book" src="https://github.com/EKANATHAN-1001/Sanitorium-Bed-Finder/assets/116795679/42e56585-72ff-4b70-9b1c-302377929189">
+![location](https://github.com/EKANATHAN-1001/Sanitorium-Bed-Finder/assets/116795679/96bb47a8-5d12-4264-bdf9-2be09b466e0c)
 
+<img width="939" alt="bed book" src="https://github.com/EKANATHAN-1001/Sanitorium-Bed-Finder/assets/116795679/a4dc8706-7c20-4056-9669-b4104f096705">
 
-<img width="946" alt="bed unbook" src="https://github.com/EKANATHAN-1001/Sanitorium-Bed-Finder/assets/116795679/5017d979-c517-4cef-9433-5d25a51ae3d5">
+<img width="946" alt="bed unbook" src="https://github.com/EKANATHAN-1001/Sanitorium-Bed-Finder/assets/116795679/90569170-73a9-4086-8b0d-c1fcb5a6074b">
 
